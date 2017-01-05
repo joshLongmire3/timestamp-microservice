@@ -10,7 +10,8 @@ var path = require('path');
 //parsing times and dates
 //(use as a wrapper to js's built
 //  in Date() module     )
-//npm install moment
+//npm install moment --save
+//the save fixes ur package.json for u
 const moment = require('moment');
 
 //it is an express app after all !
